@@ -16,8 +16,9 @@ app.use(cors({ credentials: true, origin: origin })); // allow commuication with
 app.use(helmet());
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" })); // allow form fields
 app.use(bodyParser.json({ limit: "50mb" })); // allow json fields
-app.use(express.static("./public"))
+app.use(express.static(path.join(__dirname, "../public")));
 app.use(express.static(path.join(__dirname, 'client')))
+app.set("views", path.join(__dirname, "../views"));
 app.set('view engine', 'ejs');
 app.use("/api/sendMail", [mail_route]);
 
