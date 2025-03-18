@@ -8,11 +8,8 @@ const mail_route = require("../routes/mail");
 const { PORT } = process.env;
 const path = require('path')
 
-const origin = ["*"]; 
-
 // middleware
 
-app.use(cors({ credentials: true, origin: origin })); // allow commuication with FE
 app.use(helmet());
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" })); // allow form fields
 app.use(bodyParser.json({ limit: "50mb" })); // allow json fields
@@ -20,6 +17,8 @@ app.use(express.static(path.join(__dirname, "../public")));
 app.use(express.static(path.join(__dirname, 'client')))
 app.set("views", path.join(__dirname, "../views"));
 app.set('view engine', 'ejs');
+app.use(cors());
+app.options('*', cors());
 app.use("/api/sendMail", [mail_route]);
 
 
