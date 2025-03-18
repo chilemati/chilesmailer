@@ -20,4 +20,4 @@
     </li>
     <li>Use can use the image below as a guide</li>
 </ul>
-<img loading="lazy" src="mailer.jpg" alt="sample" />
+<img loading="lazy" src="https://res.cloudinary.com/dlifiojbx/image/upload/v1742243751/myPortfolio/preciouswogo_blglu0.jpg" alt="sample" />
