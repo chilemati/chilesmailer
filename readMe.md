@@ -18,6 +18,6 @@
         </li>
     </ul>
     </li>
-    <li>Use can use the image as a guide <a href='https://vercel.com/amadi-chiles-projects/chilesmailer' target='_blank' > view </a> </li>
+    <li>Use can use the image as a guide <a href='https://chilesmailer.vercel.app/' target='_blank' > view </a> </li>
 </ul>
 
