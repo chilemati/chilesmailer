@@ -23,6 +23,13 @@
       code{
         background-color: gainsboro;
         padding: 2px;
+        
+      }
+      #copy{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
       }
       li{
         margin-bottom: 10px;
@@ -34,6 +41,7 @@
         font-size: 18px;
         font-weight: 500;
       }
+
     </style>
   </head>
   <body>
@@ -44,7 +52,7 @@
 
     <ul>
       <h3>How to Use</h3>
-      <li id="copy" ><b>URL</b>: <code id="myInput" >http://localhost:5000/api/sendMail/email</code></li>
+      <li id="copy" ><b>URL</b>: <code id="myInput" >http://localhost:5000/api/sendMail/email</code> <img style="width: 24px; height: 24px;" src="copy.svg" alt="copy"> </li>
       <li>Request type: <b>post</b></li>
       <li>
         Provide the following Data: <br />
@@ -64,5 +72,7 @@
     <footer>
         &copy; Chile's Mailer, <%=date %>
     </footer>
+
+    <script src="js.js"></script>
   </body>
 </html>
