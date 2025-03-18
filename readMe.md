@@ -18,6 +18,7 @@
         </li>
     </ul>
     </li>
+    <li>Check your spam emails to see received emails from Chile's Mailer. Mark not as spam to receil emails normally</li>
     <li>You can use this image as a guide <a href='https://chilesmailer.vercel.app/' target='_blank' > view </a> </li>
 </ul>
 
