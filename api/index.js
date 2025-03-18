@@ -8,7 +8,7 @@ const mail_route = require("../routes/mail");
 const { PORT } = process.env;
 const path = require('path')
 
-const origin = ["http://","https://"]; 
+const origin = ["*"]; 
 
 // middleware
 
