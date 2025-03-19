@@ -5,9 +5,8 @@
     <title>Chile's Mailer</title>
     <style>
       img {
-        width: 100%;
+        width: 85%;
         height: fit-content;
-        margin: 2rem auto;
       }
       ul .pad {
         padding-left: 15px;
@@ -23,13 +22,16 @@
       code{
         background-color: gainsboro;
         padding: 2px;
+        height: fit-content;
         
       }
       #copy{
         display: flex;
         align-items: center;
-        justify-content: start;
-        gap: 10px;
+        justify-content: space-between;
+        gap: 5px;
+        flex-wrap: wrap;
+        
       }
       li{
         margin-bottom: 10px;
@@ -42,6 +44,18 @@
         font-weight: 500;
       }
 
+      #myInput{
+        width: 60%;
+      }
+      *{
+        word-wrap: break-word;
+      }
+      body{
+        width: 85%;
+        margin: auto;
+      }
+      
+
     </style>
   </head>
   <body>
@@ -52,7 +66,7 @@
 
     <ul>
       <h3>How to Use</h3>
-      <li id="copy" ><b>URL</b>: <code id="myInput" >https://chilesmailer.vercel.app/api/sendMail/email</code> <img style="width: 24px; height: 24px;" src="copy.svg" alt="copy"> </li>
+      <li id="copy" ><b>URL:</b> <code id="myInput" >https://chilesmailer.vercel.app/api/sendMail/email</code> <img style="width: 24px; height: 24px;" src="copy.svg" alt="copy"> </li>
       <li>Request type: <b>post</b></li>
       <li>
         Provide the following Data: <br />
