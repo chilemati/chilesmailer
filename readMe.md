@@ -5,7 +5,7 @@
 
 <h3>How to Use</h3>
 <ul>
-    <li id="copy" ><b>URL</b>: <code id="myInput" >http://localhost:5000/api/sendMail/email</code></li>
+    <li id="copy" ><b>URL</b>: <code id="myInput" >https://chilesmailer.vercel.app/api/sendMail/email</code></li>
     <li>Request type: <b>post</b></li>
     <li>
     Provide the following Data: <br />
